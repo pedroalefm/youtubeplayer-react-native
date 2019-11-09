@@ -17,7 +17,7 @@ npm i youtubeplayer-react-native --save
 
 ```jsx
 import YoutubePlayer from 'youtubeplayer-react-native';
-
+import {View} from 'react-native'
 
     state = {
         id : "dQw4w9WgXcQ"
@@ -25,7 +25,11 @@ import YoutubePlayer from 'youtubeplayer-react-native';
 
     render(){
         return(
-            <YoutubePlayer videoId = {this.state.id} width= {300} height = {250} showControls = {true}/>
+            <View style = {{flex: 1}}>
+
+                <YoutubePlayer videoId = {this.state.id} width= {300} height = {250} showControls = {true}/>
+
+            </View>
         )
     }
 
