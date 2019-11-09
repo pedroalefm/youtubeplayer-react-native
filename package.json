@@ -1,24 +1,27 @@
 {
-  "name": "youtubeplayer-react-native",
-  "version": "1.0.0",
-  "description": "Youtube player for react-native",
-  "main": "YoutubePlayer.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pedroalefm/youtubeplayer-react-native.git"
-  },
-  "keywords": [
-    "youtube",
-    "react",
-    "react-native"
-  ],
-  "author": "Pedro Martins <pedroalefmm@gmail.com> (pedroalefm.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pedroalefm/youtubeplayer-react-native/issues"
-  },
-  "homepage": "https://github.com/pedroalefm/youtubeplayer-react-native#readme"
+	"name": "youtubeplayer-react-native",
+	"version": "1.0.0",
+	"description": "Youtube player for react-native",
+	"main": "YoutubePlayer.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pedroalefm/youtubeplayer-react-native.git"
+	},
+	"keywords": [
+		"youtube",
+		"react",
+		"react-native"
+	],
+	"author": "Pedro Martins <pedroalefmm@gmail.com> (pedroalefm.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/pedroalefm/youtubeplayer-react-native/issues"
+	},
+	"homepage": "https://github.com/pedroalefm/youtubeplayer-react-native#readme",
+	"engines": {
+		"node": ">=4.2.4"
+	}
 }
