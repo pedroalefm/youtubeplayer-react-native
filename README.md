@@ -9,6 +9,11 @@ A Simple react-native based youtube player.
 ## Instalation
 
 ```
+npm install --save react-native-webview
+
+```
+
+```
 npm i youtubeplayer-react-native --save
 
 ```
